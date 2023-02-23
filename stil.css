@@ -1,0 +1,153 @@
+body {
+	background-image: url(bg.png);
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	height: auto;
+	width: 700px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+header {
+	padding: 0px;
+	height: 170px;
+	width: 700px;
+	margin-bottom: 5px;
+}
+
+nav {
+	height: 35px;
+	width: 715px;
+	margin-bottom: 0px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	font-size: 12px;
+	line-height: 25px;
+	font-style: bold;
+	color: #066b0f;
+	text-decoration: none;
+	background-color: #ffffff;
+	text-align: center;
+	display: block;
+	width: 140px;
+	margin-top: 5px;
+	transition-property: backround-color,color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+	
+}
+nav ul li a:hover {
+	background-color: #066b0f;
+	color: #ffffff;
+	margin-top: 0px;
+
+}
+
+section {
+	background-color: #FFF;
+	height: auto;
+	width: 700px;
+	padding-top: 5px;
+	float: left;
+}
+footer {
+	background-color: aqua;
+	float: left;
+	height: 19px;
+	width: 700px;
+	margin-bottom: 7px;
+}
+aside {
+	float: left;
+	height: auto;
+	width: 190px;	
+}
+
+article {
+	font-size: 12px;
+	line-height: 16px;
+	
+	text-align: justify;
+	padding: 5px;
+	float: left;
+	height: auto;
+	width: 310px;
+}
+
+aside div {
+	font-size: 11px;
+	background-color: #f5f5f5;
+	height: 200px;
+	width: 178px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	border: 2px solid #666666;
+}
+
+.yan_menu_baslik {
+	font-size: 14px;
+	line-height: 25px;
+	color: #000000;
+	background-image: url(bg2.png);
+	text-align: center;
+	margin: 0px;
+}
+aside div ul{margin: 0px;
+padding: 0px;
+list-style-type: none;
+}
+
+aside div ul li{width: 170px;
+border-bottom: 5px solid #b6d4e2;}
+
+aside div ul li a{line-height: 10px;
+font-weight: bold;
+color: #858585;
+text-decoration: none;
+display: block;
+margin: 0px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;}
+
+aside div ul li a:hover{color: #ffffff;
+background-color: #4ef064;
+border-left-width: 5px;
+border-left-style: solid;
+border-left-color: #52c4d3;}
+    
+#kynn{width: 700px;
+height: 30px;
+margin-top: 5px;
+background-color: aqua;
+float: left;
+font-size: 13px;
+font-weight: bold;
+padding-top: 7px;}
+
+#kyn{width: 700px;
+height: 35px;
+margin-top: 5px;
+background-color: aqua;
+float: left;
+font-size: 13px;
+font-weight: bold;
+padding-top: 7px;}
+            
+
+
+            
+
